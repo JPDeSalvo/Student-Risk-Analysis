@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		43E59D6C1AFAE67800A29236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59D6B1AFAE67800A29236 /* AppDelegate.swift */; };
-		43E59D6E1AFAE67800A29236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59D6D1AFAE67800A29236 /* ViewController.swift */; };
 		43E59D711AFAE67800A29236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E59D6F1AFAE67800A29236 /* Main.storyboard */; };
 		43E59D731AFAE67800A29236 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E59D721AFAE67800A29236 /* Images.xcassets */; };
 		43E59D761AFAE67800A29236 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43E59D741AFAE67800A29236 /* LaunchScreen.xib */; };
 		43E59D821AFAE67800A29236 /* Student_Risk_AnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59D811AFAE67800A29236 /* Student_Risk_AnalysisTests.swift */; };
+		43E59D8E1AFB154500A29236 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59D8D1AFB154500A29236 /* Loan.swift */; };
+		43E59D921AFB374300A29236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59D911AFB374300A29236 /* ViewController.swift */; };
+		43E59D981AFC664500A29236 /* Degree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59D971AFC664500A29236 /* Degree.swift */; };
+		43E59D9A1AFE829000A29236 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59D991AFE829000A29236 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		43E59D661AFAE67800A29236 /* Student Risk Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Risk Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E59D6A1AFAE67800A29236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43E59D6B1AFAE67800A29236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43E59D6D1AFAE67800A29236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43E59D701AFAE67800A29236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43E59D721AFAE67800A29236 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		43E59D751AFAE67800A29236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		43E59D7B1AFAE67800A29236 /* Student Risk AnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student Risk AnalysisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E59D801AFAE67800A29236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43E59D811AFAE67800A29236 /* Student_Risk_AnalysisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student_Risk_AnalysisTests.swift; sourceTree = "<group>"; };
+		43E59D8D1AFB154500A29236 /* Loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		43E59D911AFB374300A29236 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43E59D971AFC664500A29236 /* Degree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Degree.swift; sourceTree = "<group>"; };
+		43E59D991AFE829000A29236 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,11 @@
 		43E59D681AFAE67800A29236 /* Student Risk Analysis */ = {
 			isa = PBXGroup;
 			children = (
+				43E59D911AFB374300A29236 /* ViewController.swift */,
+				43E59D991AFE829000A29236 /* Student.swift */,
+				43E59D8D1AFB154500A29236 /* Loan.swift */,
 				43E59D6B1AFAE67800A29236 /* AppDelegate.swift */,
-				43E59D6D1AFAE67800A29236 /* ViewController.swift */,
+				43E59D971AFC664500A29236 /* Degree.swift */,
 				43E59D6F1AFAE67800A29236 /* Main.storyboard */,
 				43E59D721AFAE67800A29236 /* Images.xcassets */,
 				43E59D741AFAE67800A29236 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43E59D6E1AFAE67800A29236 /* ViewController.swift in Sources */,
+				43E59D981AFC664500A29236 /* Degree.swift in Sources */,
 				43E59D6C1AFAE67800A29236 /* AppDelegate.swift in Sources */,
+				43E59D921AFB374300A29236 /* ViewController.swift in Sources */,
+				43E59D9A1AFE829000A29236 /* Student.swift in Sources */,
+				43E59D8E1AFB154500A29236 /* Loan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				43E59D871AFAE67800A29236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43E59D881AFAE67800A29236 /* Build configuration list for PBXNativeTarget "Student Risk AnalysisTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				43E59D8A1AFAE67800A29236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

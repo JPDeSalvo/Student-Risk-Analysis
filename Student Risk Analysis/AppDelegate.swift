@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Student Risk Analysis
 //
-//  Created by Patrick DeSalvo on 5/6/15.
-//  Copyright (c) 2015 Patrick DeSalvo. All rights reserved.
+//  Created by John Patrick DeSalvo on 5/6/15.
+//  Copyright (c) 2015 John Patrick DeSalvo. All rights reserved.
 //
 
 import UIKit
